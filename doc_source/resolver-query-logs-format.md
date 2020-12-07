@@ -54,8 +54,11 @@ The list of IDs of the sources the DNS query originated from or passed through\.
 **instance**  
 The ID of the instance that the query originated from\.
 
-**resolver\-endpoint**  
+**resolver\_endpoint**  
 The ID of the resolver endpoint that passes the DNS query to on\-premises DNS servers\.
+
+**resolver\_network\_interface**  
+The ID of the resolver endpoint's elastic network interface\.
 
 **EDNS client subnet**  
 A partial IP address for the client that the request originated from, if available from the DNS resolver\.  
