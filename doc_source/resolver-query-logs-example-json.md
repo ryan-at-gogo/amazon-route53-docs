@@ -17,30 +17,31 @@ Here's an example query log:
     {
       "Rdata": "192.0.2e.44",
       "Type": "A",
-      "Class": "IN",
+      "Class": "IN"
     },
     {
       "Rdata": "198.51.100.6",
       "Type": "A",
-      "Class": "IN",
+      "Class": "IN"
     },
     {
       "Rdata": "203.0.113.8",
       "Type": "A",
-      "Class": "IN",
+      "Class": "IN"
     },
     {
       "Rdata": "203.0.113.9",
       "Type": "A",
-      "Class": "IN",
-    },
+      "Class": "IN"
+    }
   ],
   "srcaddr": "192.0.2.15",
   "srcport": "50637",
   "transport": "UDP",
   "srcids": {
     "instance": "i-0d15cd0d3example",
-    "resolver-endpoint": "rslvr-out-2345678dfghexample",
-  },
+    "resolver_endpoint": "rslvr-out-2345678dfghexample",
+    "resolver_network_interface": "rni-79d13a3bfe2146398"
+  }
 }
 ```
